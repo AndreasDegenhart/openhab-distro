@@ -80,13 +80,6 @@
                     <include>**/*</include>
                 </includes>
             </resource>
-            <resource>
-                <directory>../distribution-resources/src/main/filtered-resources</directory>
-                <filtering>true</filtering>
-                <includes>
-                    <include>**/*</include>
-                </includes>
-            </resource>
             <!-- add distribution specific resources -->
             <resource>
                 <directory>src/main/resources</directory>
@@ -143,6 +136,7 @@
                         <feature>service</feature>
                         <feature>system</feature>
                         <feature>openhab-runtime-base</feature>
+                        <feature>openhab-runtime-updates</feature>
                     </bootFeatures>
                     <archiveZip>false</archiveZip>
                     <archiveTarGz>false</archiveTarGz>
