@@ -36,7 +36,7 @@
 	<logger name="org.openhab" level="INFO" />
 	<logger name="org.eclipse.smarthome" level="INFO" />
 
-	<logger name="org.eclipse.jetty" level="INFO" />
+	<logger name="org.eclipse.jetty" level="DEBUG" />
     <logger name="org.jupnp" level="ERROR"/>
  	<!-- temporary workaround for https://github.com/openhab/jmdns/issues/12 -->
     <logger name="javax.jmdns" level="OFF"/>
